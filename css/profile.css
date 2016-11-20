@@ -1,0 +1,84 @@
+.profile-picture {
+	max-width: 50%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+html {
+  background-color: papayawhip;
+}
+
+body {
+  background: none;
+  color: #2F2F2E;
+  font-family: sans-serif;
+}
+
+.card {
+  border-color: crimson;
+}
+
+.card-title {
+  color: crimson;
+  font-weight: 300;
+}
+
+.card-block small {
+  float: right;
+}
+
+.card-footer {
+	font-size: 30px;
+	text-align: center; 
+	color: 006bb3;
+}
+
+.description {
+  background-image: url("background.jpg");
+  background-repeat: repeat-x;
+}
+
+
+.jumbotron {
+  background-image: url("../img/cover.jpg");
+  background-size: cover;
+  color: black;
+  width: 100%;
+}
+
+.btn {
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: crimson;
+  border-color: #e16879;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: crimson;
+  border-color: #e05164;
+}
+
